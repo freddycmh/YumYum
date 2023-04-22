@@ -21,10 +21,10 @@ function Mcdonalds() {
                 {menu.map((items) => {
                     return (
                         <li class="flex py-4 first:pt-0 last:pb-0">
-                            <img class="h-10 w-10 rounded-full" src={items.img} alt="" />
+                            <img class="h-20 w-20 rounded-full" src={items.img} alt="" />
                             <div class="ml-3 overflow-hidden">
-                                <p class="text-sm font-medium text-slate-900">{items.name}</p>
-                                <p class="text-sm text-slate-500 truncate">{items.type}</p>
+                                <p class="text-lg font-medium text-slate-900">{items.name}</p>
+                                <p class="text-md text-slate-500 truncate">{items.type}</p>
                             </div>
                         </li>
                     )
