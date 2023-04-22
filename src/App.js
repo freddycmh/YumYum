@@ -1,9 +1,14 @@
 
 import './App.css';
-import Welcome from './components/Welcome';
+import Welcome from './components/Home';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import Mcdonalds from './pages/Mcdonalds';
+import Wendy from './pages/Wendy';
+import PrinceTea from './pages/PrinceTea';
+import FiveGuys from './pages/FiveGuys';
+
 
 
 function App() {
@@ -15,22 +20,36 @@ function App() {
     { name: 'Prince Tea', location: "brooklyn", type: "Mexican", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress&cs=tinysrgb&w=1600" }
   ]);
 
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={ }>
+        <Route path='Mcdonalds' element={<Mcdonalds />} />
+        <Route path='Wendy' element={<Wendy />} />
+        <Route path='FiveGuys' element={<FiveGuys />} />
+        <Route path='PrinceTea' element={<PrinceTea />} />
+
+        <Route path='/' element={<div className='flex flex-wrap justify-center'>
+          {vendors.map((vendor) => {
+
+            return (
+              < Welcome key={uuidv4()} name={vendor.name} type={vendor.type} img={vendor.img} />
+            )
+          })
+          }
+
+
+        </div>} />
+      </Route>
+    )
+  )
+
 
   return (
+
     <div className="App">
-      <div className='flex flex-wrap justify-center'>
-        {vendors.map((vendor) => {
-
-          return (
-            < Welcome key={uuidv4()} name={vendor.name} type={vendor.type} img={vendor.img} />
-          )
-        })
-        }
-
-
-      </div>
-
+      <RouterProvider router={router} />
     </div>
+
   );
 }
 
