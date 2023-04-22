@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 function Welcome(props) {
     return (
         <>
@@ -12,13 +13,18 @@ function Welcome(props) {
                             {props.type}
                         </p>
                     </div>
-                    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Open</button>
+                    {/* <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+                        <NavLink to='/Mcdonalds'>Home</NavLink>
+                    </button> */}
+                    < NavLink to='/Mcdonalds' >
+                        < button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2" >
+                            Home
+                        </button >
+                    </NavLink >
                 </div>
             </div>
         </>
     )
-
-
 
 }
 

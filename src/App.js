@@ -8,6 +8,7 @@ import Mcdonalds from './pages/Mcdonalds';
 import Wendy from './pages/Wendy';
 import PrinceTea from './pages/PrinceTea';
 import FiveGuys from './pages/FiveGuys';
+import RootLayout from './Layouts/RootLayout'
 
 
 
@@ -22,7 +23,7 @@ function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={ }>
+      <Route path='/' element={<RootLayout />}>
         <Route path='Mcdonalds' element={<Mcdonalds />} />
         <Route path='Wendy' element={<Wendy />} />
         <Route path='FiveGuys' element={<FiveGuys />} />
