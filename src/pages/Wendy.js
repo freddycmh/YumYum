@@ -3,10 +3,10 @@ import "./pages.css";
 
 function Wendy() {
     const [menu, useMenu] = useState([
-        { name: 'Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-        { name: 'Bacon Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-        { name: 'Dave Singles', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-        { name: 'Baconator', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress" }
+        { name: 'Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price: "8.99$" },
+        { name: 'Bacon Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'Dave Singles', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'Baconator', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" }
     ])
     return (
         <>
@@ -25,6 +25,8 @@ function Wendy() {
                             <div class="ml-3 overflow-hidden">
                                 <p class="text-lg font-medium text-slate-900">{items.name}</p>
                                 <p class="text-md text-slate-500 truncate">{items.type}</p>
+                                <p class="text-sm text-slate-500 truncate">{items.price}</p>
+
                             </div>
                         </li>
                     )

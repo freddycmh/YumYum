@@ -3,10 +3,10 @@ import "./pages.css";
 
 function Mcdonalds() {
     const [menu, useMenu] = useState([
-        { name: 'BigMac', type: "Burger", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-        { name: 'McChicken', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-        { name: 'FishFillet', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-        { name: 'Double Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress" }
+        { name: 'BigMac', type: "Burger", img: "https://www.eatthis.com/wp-content/uploads/sites/4/2018/12/big-mac-meal-1.jpg?quality=82&strip=1", price: "8.99$" },
+        { name: 'McChicken', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'FishFillet', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'Double Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" }
     ])
     return (
         <>
@@ -25,6 +25,7 @@ function Mcdonalds() {
                             <div class="ml-3 overflow-hidden">
                                 <p class="text-lg font-medium text-slate-900">{items.name}</p>
                                 <p class="text-md text-slate-500 truncate">{items.type}</p>
+                                <p class="text-sm text-slate-500 truncate">{items.price}</p>
                             </div>
                         </li>
                     )

@@ -9,15 +9,27 @@ import Wendy from './pages/Wendy';
 import PrinceTea from './pages/PrinceTea';
 import FiveGuys from './pages/FiveGuys';
 import RootLayout from './Layouts/RootLayout'
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+
+
+
 
 
 
 function App() {
   const [festival, useFestival] = useState('queens');
   const [vendors, useVendors] = useState([
-    { name: 'Mcdonalds', location: "brooklyn", type: "Fast Food", route: "/Mcdonalds", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-    { name: 'Wendy', location: "brooklyn", type: "Fast Food", route: "/Wendy", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-    { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600" },
+    { name: 'Mcdonalds', location: "brooklyn", type: "Fast Food", route: "/Mcdonalds", img: "https://logos-download.com/wp-content/uploads/2016/03/McDonalds_France_Logo_2003.png" },
+    { name: 'Wendy', location: "brooklyn", type: "Fast Food", route: "/Wendy", img: "https://www.gannett-cdn.com/media/USATODAY/WiresImages/2012/10/11/820fbb8bab63a41c1d0f6a70670052a9-16_9.jpg?width=1200&disable=upscale&format=pjpg&auto=webp" },
+    { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
+    { name: 'Prince Tea', location: "brooklyn", type: "Fast Food", route: "/PrinceTea", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress&cs=tinysrgb&w=1600" },
+    { name: 'Mcdonalds', location: "brooklyn", type: "Fast Food", route: "/Mcdonalds", img: "https://logos-download.com/wp-content/uploads/2016/03/McDonalds_France_Logo_2003.png" },
+    { name: 'Wendy', location: "brooklyn", type: "Fast Food", route: "/Wendy", img: "https://www.gannett-cdn.com/media/USATODAY/WiresImages/2012/10/11/820fbb8bab63a41c1d0f6a70670052a9-16_9.jpg?width=1200&disable=upscale&format=pjpg&auto=webp" },
+    { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
+    { name: 'Prince Tea', location: "brooklyn", type: "Fast Food", route: "/PrinceTea", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress&cs=tinysrgb&w=1600" },
+    { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
     { name: 'Prince Tea', location: "brooklyn", type: "Fast Food", route: "/PrinceTea", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress&cs=tinysrgb&w=1600" }
   ]);
 
@@ -28,6 +40,9 @@ function App() {
         <Route path='Wendy' element={<Wendy />} />
         <Route path='FiveGuys' element={<FiveGuys />} />
         <Route path='PrinceTea' element={<PrinceTea />} />
+        <Route path='About' element={<About />} />
+        <Route path='Contact' element={<Contact />} />
+
         <Route path='/' element={<div className='flex flex-wrap justify-center'>
           {vendors.map((vendor) => {
 
@@ -36,10 +51,10 @@ function App() {
             )
           })
           }
-
-
         </div>} />
+
       </Route>
+
     )
   )
 
@@ -47,6 +62,7 @@ function App() {
   return (
 
     <div className="App">
+
       <RouterProvider router={router} />
     </div>
 
