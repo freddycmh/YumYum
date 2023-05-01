@@ -31,11 +31,7 @@ export default function RootLayout() {
                         <Nav className="me-auto" id='nav'>
                             <Nav.Link href='/'>Home</Nav.Link>
                             <Nav.Link href='About'>About Us</Nav.Link>
-                            <Nav.Link href='/Contact'>Contact</Nav.Link>
-
-
-                            .     {/* <NavLink href="#features">Features</NavLink>
-                            <NavLink href="#pricing">Pricing</NavLink> */}
+                            {/* <Nav.Link href='/Contact'>Contact</Nav.Link> */}
                         </Nav>
                     </Container>
                 </Navbar>

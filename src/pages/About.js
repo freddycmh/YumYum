@@ -23,7 +23,7 @@ function About() {
                     </div>
                     <div class="team-member">
                         <img src="https://images.pexels.com/photos/16248203/pexels-photo-16248203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bob Smith" />
-                        <h3>Ray Suck Dick</h3>
+                        <h3>Ray</h3>
                         <p>Co-Founder & COO</p>
                     </div>
                 </section>

@@ -6,6 +6,10 @@ function FiveGuys() {
         { name: 'Cajun Fries', type: "Fries", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price: "8.99$" },
         { name: 'All In Burger', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
         { name: 'HotDog', type: "HotDog", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'Lettuce Wrap Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" },
+        { name: 'Cajun Fries', type: "Fries", img: "https://images.pexels.com/photos/1858115/pexels-photo-1858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price: "8.99$" },
+        { name: 'All In Burger', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'HotDog', type: "HotDog", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
         { name: 'Lettuce Wrap Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" }
     ])
     return (

@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import "./pages.css";
 
-function PrinceTea() {
+function ChickFilA() {
     const [menu, useMenu] = useState([
+        { name: 'Cheese Cake', type: "Dessert", img: "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=800", price: "8.99$" },
+        { name: 'Green Tea Latte', type: "Drink", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'Chicken Wings', type: "Appetizer", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'French Fries', type: "Appetizer", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" },
         { name: 'Cheese Cake', type: "Dessert", img: "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=800", price: "8.99$" },
         { name: 'Green Tea Latte', type: "Drink", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
         { name: 'Chicken Wings', type: "Appetizer", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
@@ -37,4 +41,4 @@ function PrinceTea() {
     )
 }
 
-export default PrinceTea;
+export default ChickFilA;

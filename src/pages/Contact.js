@@ -15,6 +15,9 @@ function Contact() {
                     <input type="submit" value="Submit" />
                 </form>
             </div>
+            <br />
+            <br />
+
 
             <footer id='about'>
                 <p>&copy; 2023 YumYum</p>

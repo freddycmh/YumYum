@@ -6,7 +6,13 @@ function Mcdonalds() {
         { name: 'BigMac', type: "Burger", img: "https://www.eatthis.com/wp-content/uploads/sites/4/2018/12/big-mac-meal-1.jpg?quality=82&strip=1", price: "8.99$" },
         { name: 'McChicken', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
         { name: 'FishFillet', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
-        { name: 'Double Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" }
+        { name: 'Double Cheese Burger', type: "Burger", img: "https://images.pexels.com/photos/16244203/pexels-photo-16244203.jpeg?auto=compress", price: "8.99$" },
+        { name: 'BigMac', type: "Burger", img: "https://www.eatthis.com/wp-content/uploads/sites/4/2018/12/big-mac-meal-1.jpg?quality=82&strip=1", price: "8.99$" },
+        { name: 'McChicken', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'FishFillet', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'BigMac', type: "Burger", img: "https://www.eatthis.com/wp-content/uploads/sites/4/2018/12/big-mac-meal-1.jpg?quality=82&strip=1", price: "8.99$" },
+        { name: 'McChicken', type: "Burger", img: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" },
+        { name: 'FishFillet', type: "Burger", img: "https://images.pexels.com/photos/4115194/pexels-photo-4115194.jpeg?auto=compress&cs=tinysrgb&w=1600", price: "8.99$" }
     ])
     return (
         <>
