@@ -30,7 +30,7 @@ function App() {
     { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
     { name: 'Chick Fil A', location: "brooklyn", type: "Fast Food", route: "/ChickFilA", img: "https://mediaservice.retailmenot.com/ws/mediagroup/GU7HVPICWJCSFLNXMKXRDC5SKI?width=400&height=400" },
     { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
-    { name: 'Chick Fil A', location: "brooklyn", type: "Fast Food", route: "/PrinceTea", img: "https://mediaservice.retailmenot.com/ws/mediagroup/GU7HVPICWJCSFLNXMKXRDC5SKI?width=400&height=400" },
+    { name: 'Chick Fil A', location: "brooklyn", type: "Fast Food", route: "/ChickFilA", img: "https://mediaservice.retailmenot.com/ws/mediagroup/GU7HVPICWJCSFLNXMKXRDC5SKI?width=400&height=400" },
     { name: 'Five Guys', location: "brooklyn", type: "Fast Food", route: "/FiveGuys", img: "https://cdn.dribbble.com/users/4825/screenshots/1014254/fiveguys.png" },
     { name: 'Chick Fil A', location: "brooklyn", type: "Fast Food", route: "/ChickFilA", img: "https://mediaservice.retailmenot.com/ws/mediagroup/GU7HVPICWJCSFLNXMKXRDC5SKI?width=400&height=400" }
   ]);
