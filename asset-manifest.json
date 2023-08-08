@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YumYum/static/css/main.968a8ed4.css",
+    "main.js": "/YumYum/static/js/main.b0c87a82.js",
+    "static/js/787.7efd31bd.chunk.js": "/YumYum/static/js/787.7efd31bd.chunk.js",
+    "index.html": "/YumYum/index.html",
+    "main.968a8ed4.css.map": "/YumYum/static/css/main.968a8ed4.css.map",
+    "main.b0c87a82.js.map": "/YumYum/static/js/main.b0c87a82.js.map",
+    "787.7efd31bd.chunk.js.map": "/YumYum/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.968a8ed4.css",
+    "static/js/main.b0c87a82.js"
+  ]
+}
